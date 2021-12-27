@@ -1,0 +1,32 @@
+#calculatorBody {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border: solid black;
+}
+
+#display {
+    background-color: grey;
+    color: black;
+    flex: 1;
+}
+
+#numpad {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+}
+
+.normalKey {
+    flex: 1;
+}
+
+.bigKey {
+    flex: 1.63;
+}
+
